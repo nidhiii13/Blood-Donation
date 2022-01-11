@@ -1,0 +1,95 @@
+ .form{
+    
+    padding: 1rem;
+  width: 70%;
+  height: 78%;
+  margin: auto;
+  background-color: navy;
+  margin-top: 2.3rem;
+   
+} 
+
+.center{
+    width: 70vw;
+    height: 88vh;
+ margin:  auto;
+  background: rgb(255, 175, 168);
+  box-shadow: inset 0 3px 6px rgba(0,0,0,0.16), 0 4px 6px rgba(0,0,0,0.45);
+  border-radius: 4px;
+ margin-top: 1rem;
+  
+}
+
+.input,.input-side{
+    border-radius: 30%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    color: honeydew;
+    
+}
+
+.input input,.input-side input{
+    border-radius: 3%;
+    border-color: navy;
+    height: 2rem;
+    background-color:rgb(243, 215, 212);
+   
+}
+.input-side{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-side input{
+    width: 22vw;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.input input{
+    width:47vw;
+    border: none;
+    
+}
+.submit{
+    margin:1rem;
+}
+.submit button{
+    font-size: 1.1rem;
+    height: 2rem;
+    background-color: crimson;
+    color: floralwhite;
+    font-weight: bold;
+    border: none;
+}
+
+.submit button:hover{
+    background-color: mediumvioletred;
+    border: gray;
+    
+}
+.label{
+    display: flex;
+    justify-content: space-between;
+    color: honeydew;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+.input-side select{
+    width: 22vw;
+    background-color: mistyrose;
+    
+}
+
+.heading{
+    color: crimson;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2rem;
+    margin: auto;
+}
+
+.input input:focus{
+    border: none;
+    background-color: rgb(236, 227, 216);
+}
